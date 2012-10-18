@@ -1,0 +1,2724 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Dataweb.NShape.AdoNetStoreException" Collapsed="true">
+    <Position X="20.75" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AdoNetStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.MissingCommandException" Collapsed="true">
+    <Position X="20.75" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AdoNetStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.AdoNetStore" Collapsed="true">
+    <Position X="30.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>p5AUSDBZACsgKQkBKAANgQwBDECAAGAAMSA0FAXZiwA=</HashCode>
+      <FileName>AdoNetStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Design" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="115.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwMJigAQBAwBEBGcBRBSEVWBAEkDAUQriJEAQBSCgA=</HashCode>
+      <FileName>Design.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.DiagramShapeCollection" Collapsed="true">
+    <Position X="5.25" Y="29.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIAACAAAAAggAACAAAIAEAAIAEiQAAABAiACAAAEA=</HashCode>
+      <FileName>Diagram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Diagram" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="121" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SQQsCAKbZCBAhEBMAIeAIFQiCESGBAAEoCEEDQpQCgA=</HashCode>
+      <FileName>Diagram.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.NShapeException" Collapsed="true">
+    <Position X="24" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.NShapeSecurityException" Collapsed="true">
+    <Position X="25.25" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.LoadLibraryException" Collapsed="true">
+    <Position X="27.5" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAQAAAAAIAAAAAiAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.NShapeInternalException" Collapsed="true">
+    <Position X="28.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.NShapeUnsupportedValueException" Collapsed="true">
+    <Position X="34.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.NShapeInterfaceNotSupportedException" Collapsed="true">
+    <Position X="23" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.NShapeMappingNotSupportedException" Collapsed="true">
+    <Position X="25.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.NShapePropertyNotSetException" Collapsed="true">
+    <Position X="27.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.ItemNotFoundException&lt;T&gt;" Collapsed="true">
+    <Position X="32" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Project" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="122.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IM4AAjZOgRKHqEAgAAAQcGQEFYCkCUQEqge/FICMBlY=</HashCode>
+      <FileName>Project.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.LibraryLoadedEventArgs" Collapsed="true">
+    <Position X="124.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Project.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.RepositoryProjectEventArgs" Collapsed="true">
+    <Position X="124.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.RepositoryModelEventArgs" Collapsed="true">
+    <Position X="119.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAA=</HashCode>
+      <FileName>Repository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.RepositoryDesignEventArgs" Collapsed="true">
+    <Position X="115.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.RepositoryStyleEventArgs" Collapsed="true">
+    <Position X="115.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Repository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.RepositoryDiagramEventArgs" Collapsed="true">
+    <Position X="117.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.RepositoryTemplateEventArgs" Collapsed="true">
+    <Position X="30.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.RepositoryTemplateShapeReplacedEventArgs" Collapsed="true">
+    <Position X="30.5" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAIAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.RepositoryShapeEventArgs" Collapsed="true">
+    <Position X="129.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Repository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.RepositoryShapesEventArgs" Collapsed="true">
+    <Position X="114" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEIAAAAAAAAAAAAAAAAAQAAAAAAAAAAABIAABABAA=</HashCode>
+      <FileName>Repository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.RepositoryModelObjectEventArgs" Collapsed="true">
+    <Position X="121" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Repository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.RepositoryModelObjectsEventArgs" Collapsed="true">
+    <Position X="122.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAQAAQAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Repository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.RepositoryShapeConnectionEventArgs" Collapsed="true">
+    <Position X="128" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEAACAAAAAAAAAAAABAAAAAAAAAAAAAAAAhABAAAA=</HashCode>
+      <FileName>Repository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.RequiredPermissionAttribute" Collapsed="true">
+    <Position X="119.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Security.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.RoleBasedSecurityManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="126.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgQAAFAgAAAAQgQgAACAAAAQAAgAEAAAAAABRAwIEA=</HashCode>
+      <FileName>Security.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.Shape" Collapsed="true">
+    <Position X="16.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SIQAEAMEkOBgBjHEgBYMQKYKEACYQEAEK7ACFUAwYFI=</HashCode>
+      <FileName>Shape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.ShapeCollection" Collapsed="true">
+    <Position X="3" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIIlsAJAIAGBgxAQCIEQtAUQAIEEiZAkABAqQKBUdHQ=</HashCode>
+      <FileName>ShapeCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.ShapeDuplicator" Collapsed="true">
+    <Position X="128" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEAAAAAAAIAABAAAAAAAAAAAAiAAAACCAACAAAAAQA=</HashCode>
+      <FileName>ShapeDuplicator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.SqlStore" Collapsed="true">
+    <Position X="30.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAkAAAIMAAQOAMgABABFQAABoAAAAEAEARAABAEA=</HashCode>
+      <FileName>SqlStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.StyleTypeDescriptionProvider" Collapsed="true">
+    <Position X="128" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.StyleTypeDescriptor" Collapsed="true">
+    <Position X="129.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.StandardStyleNames" Collapsed="true">
+    <Position X="13.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAQAAAAAAAAAAEAAAAAAAIA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.StandardCapStyleNames" Collapsed="true">
+    <Position X="17" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAIAAAAAAAAAAAAAAABAAACAAAgAAAEAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.StandardCharacterStyleNames" Collapsed="true">
+    <Position X="19.25" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAQAAgAAAAAAAIAAAACAAAAAAAAQA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.StandardColorStyleNames" Collapsed="true">
+    <Position X="8" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAHAEBAAQAAAgAAAAAAAAAABABAAEQAAAAgCDAAACA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.StandardFillStyleNames" Collapsed="true">
+    <Position X="10.25" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAEAAAAAAAgAAAAAAAAAABAAAAAAAAAAAADAAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.StandardLineStyleNames" Collapsed="true">
+    <Position X="12.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAAAAAAABAkAAAAAAAAAABABIAECAAAABADEAABA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.StandardParagraphStyleNames" Collapsed="true">
+    <Position X="14.75" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAEAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Style" Collapsed="true">
+    <Position X="25.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAKAAQAQCgAAkAEgAAAAAQIAAEEAAAgCAAAAACAAgA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.CapStyle" Collapsed="true">
+    <Position X="20" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAASAACgAgAAEgAAQIAAIAAAQRAAgAEAAIAAAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.CharacterStyle" Collapsed="true">
+    <Position X="22.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgQIABQAACgAgAAGiAIAIAAIAAAQBAAgBAQAIAAAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.ColorStyle" Collapsed="true">
+    <Position X="24.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAYAACgAgAAEoAIAAIAIAAKQBACCAAAAgAAAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.FillStyle" Collapsed="true">
+    <Position X="26.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgCogEQAEKgAgAQMgAIAAIAIEAiQBBQEIAAAABIAgAg=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.LineStyle" Collapsed="true">
+    <Position X="29" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhIAAQAAigBAAIEgAIAAAAoABAQJAAwACAAIAAIgAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.ParagraphStyle" Collapsed="true">
+    <Position X="31.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIIQQAACgAAAAEgCIAAAAoAAAQBAAAAAIAAAACAAE=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.StyleCollection&lt;TStyle&gt;" Collapsed="true">
+    <Position X="21.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEIAAAQAAAAAgAAACAAABARAAAACQAAALAAAAABQAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.CapStyleCollection" Collapsed="true">
+    <Position X="16" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAABAAAABAAABAAQCEAAgAAAkAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.CharacterStyleCollection" Collapsed="true">
+    <Position X="18.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAABAAQAQgAABAAAAIAAAECAAAAAAAAQA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.ColorStyleCollection" Collapsed="true">
+    <Position X="20.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAHAEBAAQAAAhAAAAAAAABABABAAEQEAAAoCDAAACA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.FillStyleCollection" Collapsed="true">
+    <Position X="22.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAEAAAAAAAhAAAAAAAABABAAAAAAEAAAAADAAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.LineStyleCollection" Collapsed="true">
+    <Position X="25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAAAAAAABAlAAAAAAAEBABABIAECEAAABADEAABA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.ParagraphStyleCollection" Collapsed="true">
+    <Position X="27.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAFAAAAAAAABAAAIAAAAEAAAACAAAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.Template" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="114" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGQPFCAAQAggBGAEICAgQAQIAIEERAogCAAAAgaCBhA=</HashCode>
+      <FileName>Template.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.ToolExecutedEventArgs" Collapsed="true">
+    <Position X="128" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAAAAQAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Tool" Collapsed="true">
+    <Position X="26" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAFGAAkQCAkQmDAsEIAAQQsoQAMKxACaDAIABISGQA=</HashCode>
+      <FileName>Tool.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.PointerTool" Collapsed="true">
+    <Position X="23.75" Y="32.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.SelectionTool" Collapsed="true">
+    <Position X="23.75" Y="30.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQMhCBok0oAcrgDKACIAoACI4A4ABiiImREIgIIQAAA=</HashCode>
+      <FileName>Tool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.TemplateTool" Collapsed="true">
+    <Position X="27" Y="30.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGBAAABAQAAAAAAAACAAAAAAABAEAAAAAAA=</HashCode>
+      <FileName>Tool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.LinearShapeCreationTool" Collapsed="true">
+    <Position X="26" Y="32.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCgAkACAEIgCACIIAAAQIQEABAiSACYAMAIAAAAA=</HashCode>
+      <FileName>Tool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.PlanarShapeCreationTool" Collapsed="true">
+    <Position X="28.25" Y="32.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAkAAAEggCBAAIAAAAQABAAAgAACAAIAAIAAAA=</HashCode>
+      <FileName>Tool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.XmlStore" Collapsed="true">
+    <Position X="32.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oOy0gKI5UBAAJAwk6gSIgNhK3tSDDUwWIqF4hzGJEpw=</HashCode>
+      <FileName>XmlStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.Utilities.Buffers" Collapsed="true">
+    <Position X="117.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAApkgEAAAQAgAAAAAAIAYkBAAIQQCAUCQGAABGI=</HashCode>
+      <FileName>Buffers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.Utilities.StringStringIterator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="122.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAABAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Buffers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.Utilities.BufferStringIterator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="119.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAQAAABAAASEAACABAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Buffers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.Utilities.Blob" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="115.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAEAAAABKAAAAARAAAAAQAoBAIAA=</HashCode>
+      <FileName>Buffers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.Utilities.StringExtensions" Collapsed="true">
+    <Position X="121" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABwgAAAAIAIAAAAAIAAAFAAAISAAAAAAAAgCBAAAABI=</HashCode>
+      <FileName>Buffers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.Utilities.DateExtensions" Collapsed="true">
+    <Position X="114" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAIAAAAMAEgAAAAAIAAAAAQAAAQAAAECAAEAAA=</HashCode>
+      <FileName>Buffers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.Utilities.LogicalValue" Collapsed="true">
+    <Position X="126.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAEQAACAAAAAAAAAIAAAAgAAAAAABA=</HashCode>
+      <FileName>Buffers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.Utilities.Diagnostics" Collapsed="true">
+    <Position X="119.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Buffers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.Utilities.MultiHashList&lt;T&gt;" Collapsed="true">
+    <Position X="119.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAgABAAAAAAAACAAABAAAAAQAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>MultiHashList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.Utilities.SimulatedAnnealingSolver" Collapsed="true">
+    <Position X="119.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAABAAAAAAAAAEAAAAAABAAAAQAAAAEAAI=</HashCode>
+      <FileName>Optimizer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.Utilities.Resources" Collapsed="true">
+    <Position X="122.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAABAAAIEAAAAAAAAAAAA=</HashCode>
+      <FileName>Resources.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.CachedRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="121" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>+2RCzfb+F2+77Hch/B4V/+8nLCe/5/zPznrJwzm2jYk=</HashCode>
+      <FileName>CachedRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.CachedRepositoryException" Collapsed="true">
+    <Position X="29.75" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CachedRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.EntityBucket&lt;TObject&gt;" Collapsed="true">
+    <Position X="115.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>CachedRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.RepositoryReader" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="126.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKaRiDanACEEIFEqlCACgEIAAACSgUARgUCJgARgAAA=</HashCode>
+      <FileName>CachedRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.RepositoryWriter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="117.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EGAIgBAgGABAZkABU4EAACAABAAhgEIgkkECAwFAwIw=</HashCode>
+      <FileName>CachedRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.Caption" Collapsed="true">
+    <Position X="122.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAACAAAAAgAAIAIACAAAAACAAAAAAAAECAAAAEA=</HashCode>
+      <FileName>Caption.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.CaptionedShapeBase" Collapsed="true">
+    <Position X="13" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQALAAACAgAAACAAAEASACAQCAACEWABkgAgCAgCYII=</HashCode>
+      <FileName>Caption.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.CircularArcBase" Collapsed="true">
+    <Position X="26.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEwIABkUiMJBQi4AABIAICqJQgUEASAAGAQCAIoKYCg=</HashCode>
+      <FileName>CircularArcBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.ReadOnlyList&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="114" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.LayerCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="115.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAAAAAACJCQSAAABAQAAAgAAAAEAAAABABQIAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.ResourceString" Collapsed="true">
+    <Position X="124.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAgAAAAAAA=</HashCode>
+      <FileName>Core.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.ProjectSettings" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="124.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQICAACAQAAhCAAAAQAgAACQAAABAAAICAEBQBQAgg=</HashCode>
+      <FileName>Core.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.Counter" Collapsed="true">
+    <Position X="128" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.CursorProvider" Collapsed="true">
+    <Position X="129.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAEAAAAAAAAAQAIAgAAAAAACAAAAAA=</HashCode>
+      <FileName>CursorProvider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.DiameterShapeBase" Collapsed="true">
+    <Position X="18.75" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIIBIAAAAAEqCAAAUAAAAIIMAACAARAgAyAAAAYAI=</HashCode>
+      <FileName>DiameterShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.SquareBase" Collapsed="true">
+    <Position X="17.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAAAAgAAAgAAAAAAAAAAAIAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>DiameterShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.CircleBase" Collapsed="true">
+    <Position X="19.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAEAgAAAEoAAAAAAAAAAIAAACQARAAABAAAAAAA=</HashCode>
+      <FileName>DiameterShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.EmfHelper" Collapsed="true">
+    <Position X="114" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAIgAAAAIAIAAAQAAEAIAAAAAAA=</HashCode>
+      <FileName>EmfHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.EntityPropertyDefinition" Collapsed="true">
+    <Position X="17.75" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAgAAAAIAAAAAAAA=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.EntityFieldDefinition" Collapsed="true">
+    <Position X="16.5" Y="31.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.EntityInnerObjectsDefinition" Collapsed="true">
+    <Position X="18.75" Y="31.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABAAAAAAAAAAAAAAACAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.EntityType" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="117.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAQAABCAAAEAgAIAAIICAAACEA=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.Fuzzy" Collapsed="true">
+    <Position X="122.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAACAAAAAA=</HashCode>
+      <FileName>FuzzyLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.GdiHelpers" Collapsed="true">
+    <Position X="124.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBABgAAA0AAAAAgAAiAAJDyAAQARogANAUCBIAAAACA=</HashCode>
+      <FileName>GdiHelpers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.NamedImage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="121" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAABCAAgABEAAAAEEQAMAAUAFAEAABABAAAADA=</HashCode>
+      <FileName>GdiHelpers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.Geometry" Collapsed="true">
+    <Position X="126.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SASRswsEoBUoDGaASmiAEKrY9AoCPTW8oGCZ4i5EHsM=</HashCode>
+      <FileName>Geometry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.CommandEventArgs" Collapsed="true">
+    <Position X="124.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAIAAAABAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>History.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.CommandsEventArgs" Collapsed="true">
+    <Position X="126.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAgAAAAoAAAAIAAAAAAAAAAAAAAAAAAAAAABEAAA=</HashCode>
+      <FileName>History.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.History" Collapsed="true">
+    <Position X="128" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMIAIAKgAEYABGACBABIoAADACAQABAASAAAECBAAAA=</HashCode>
+      <FileName>History.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.PictureBase" Collapsed="true">
+    <Position X="13" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgwpAABFAgBAkigIAANAAACikASEIFABAgIAACIAQFI=</HashCode>
+      <FileName>ImageBasedShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.ImageBasedShape" Collapsed="true">
+    <Position X="1.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwALCBFOkAIAgiSKAFISACKYOACDCWAA0khiDAhCYJI=</HashCode>
+      <FileName>ImageBasedShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.CustomizableMetaFile" Collapsed="true">
+    <Position X="1.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQEAAAAAAAIAoiEAACAEASAIAAAAAUkAAAIIACACIBA=</HashCode>
+      <FileName>ImageBasedShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.Layer" Collapsed="true">
+    <Position X="114" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAQAAIAEAAAAAAAAQAACAEAAAAAgAAgAAAAgA=</HashCode>
+      <FileName>Layer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.LineShapeBase" Collapsed="true">
+    <Position X="26.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>yAEIBQI0GMIhgizMUyNQGKWTOYUgAegEHkBAEM0jbBI=</HashCode>
+      <FileName>LinearShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.MenuItemDef" Collapsed="true">
+    <Position X="27.25" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAICAAQAAgAkSAIAAEAAQgEAAEABAAAAAAABAAAAA=</HashCode>
+      <FileName>MenuItemDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.SeparatorMenuItemDef" Collapsed="true">
+    <Position X="22.75" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAgAkSAAAAEAAQAAAAEABAAAAAAABAAAAA=</HashCode>
+      <FileName>MenuItemDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.NotImplementedMenuItemDef" Collapsed="true">
+    <Position X="25" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgSAAAAEAAAAAAAgABAAAAAAABAAAAA=</HashCode>
+      <FileName>MenuItemDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.GroupMenuItemDef" Collapsed="true">
+    <Position X="27.25" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAACAAAAAAAAABAAAAQ=</HashCode>
+      <FileName>MenuItemDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.DelegateMenuItemDef" Collapsed="true">
+    <Position X="29.5" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAQAAACAABAAEgAAAAIEAgAAABAAAAA=</HashCode>
+      <FileName>MenuItemDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.CommandMenuItemDef" Collapsed="true">
+    <Position X="31.75" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAQAAAAABAAAAAQAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>MenuItemDef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.Model" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="128" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQKAAAAAAAABAAAAAQAAAACAAAABAAAICAAAAAQAgA=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.ModelObjectType" Collapsed="true">
+    <Position X="23.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIBCgAAAggAYAAIAAIAQQACEEEAAAQAAACAAAAAAA=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.GenericModelObjectType" Collapsed="true">
+    <Position X="23.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAUAAAAAAEAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.ModelObjectTypeCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="117.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAAAEAAACAABAACAAAFAQAAAAAAAAEAAAEAABAIAA=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.ModelObjectBase" Collapsed="true">
+    <Position X="0.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQMAAIABCAABIBCIAaAxIwCAAAEAAAAKyAAAQAwBhI=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.GenericModelObject" Collapsed="true">
+    <Position X="0.5" Y="23.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>LAQIBAAAACAAAIAkAAKABIAAAAAAAAAgChAAACYAABI=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.PathBasedPlanarShape" Collapsed="true">
+    <Position X="13" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAJABEEEAIAoiYIAAICACKaAAABAUAABkAwAARIYEI=</HashCode>
+      <FileName>PathBasedShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.RegularPolygoneBase" Collapsed="true">
+    <Position X="22" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJABEAgABAgiCAAAAAAAEKIAAAAQEBCgAyAAACoBI=</HashCode>
+      <FileName>Polygone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.PolylineBase" Collapsed="true">
+    <Position X="28.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAFEkgEBBAjAAAJAAIAqJAAUAASKAEgQGBAoAYAA=</HashCode>
+      <FileName>PolyLineBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.PropertyMappingIdAttribute" Collapsed="true">
+    <Position X="129.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>PropertyMappings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.ModelMappingBase" Collapsed="true">
+    <Position X="7" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAKAAAAACoIgoAACEAABAgIAAEAAFAgBCAQAACIAhA=</HashCode>
+      <FileName>PropertyMappings.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.NumericModelMapping" Collapsed="true">
+    <Position X="4.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQIAAAAACoIgoAAAEAABAAIAAgABGACBSAAQgAIAFA=</HashCode>
+      <FileName>PropertyMappings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.FormatModelMapping" Collapsed="true">
+    <Position X="7" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQIAAAAACoIgoAgAEAADAAIAAgABEAABSAAACAIABA=</HashCode>
+      <FileName>PropertyMappings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.StyleModelMapping" Collapsed="true">
+    <Position X="9.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEQIgEAIACoIgoAACEAABAAIAAgABUAgBSAAiGDIABA=</HashCode>
+      <FileName>PropertyMappings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.RectangleBase" Collapsed="true">
+    <Position X="8.5" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEMABMAhAAAEqCAEIEAAkAIIIAACQARAgAyAAAAYAI=</HashCode>
+      <FileName>RectangleShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.EllipseBase" Collapsed="true">
+    <Position X="6.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAEAgAAAEoAAAAAAAAAAIAAACQARAAAAAAAAAAA=</HashCode>
+      <FileName>RectangleShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.DiamondBase" Collapsed="true">
+    <Position X="8.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJAAEAgAAAEoAAAAAAAEAAIAAACQARCAAAAAAAAAA=</HashCode>
+      <FileName>RectangleShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.IsoscelesTriangleBase" Collapsed="true">
+    <Position X="10.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJABsEgAAAEgCAAAAAAAAAIAAACQAAAAAQAEASIDA=</HashCode>
+      <FileName>RectangleShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.RectangularLineBase" Collapsed="true">
+    <Position X="24.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QARABREkoEBBAiCgBJIQAAKZAAUAASAAEAwDAAkAYAA=</HashCode>
+      <FileName>RectangularLineBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.ShapeAggregation" Collapsed="true">
+    <Position X="1.75" Y="29.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIAAAACMAAABgiIDgAAAIAMAAAAYCAAAABkigTAAIBA=</HashCode>
+      <FileName>ShapeAggregation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.ResizableShapeAggregation" Collapsed="true">
+    <Position X="0.75" Y="31.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAACEGAAAAIAAAAAAgAAAAiAAgASIkAAA=</HashCode>
+      <FileName>ShapeAggregation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.GroupShapeAggregation" Collapsed="true">
+    <Position X="3" Y="31.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAACAAAAAAiACiAAAIAEAAIAEiAAAABAiACAJAEA=</HashCode>
+      <FileName>ShapeAggregation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.CompositeShapeAggregation" Collapsed="true">
+    <Position X="0.75" Y="32.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShapeAggregation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.ShapeBase" Collapsed="true">
+    <Position X="15.25" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>mIRJELrEqOJkmjVMAJuEROaIMBC6R8Qky1UBEgAhYlY=</HashCode>
+      <FileName>ShapeBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.ShapeGroup" Collapsed="true">
+    <Position X="31" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CIQJHCuEkOBghjXAABIEQKYYEACQQEAAi1ACEABgYlI=</HashCode>
+      <FileName>ShapeGroup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.Stroke" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="124.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAADAAAAABEICQAAAQQAAAIAAAAEIAAAAABAAAA=</HashCode>
+      <FileName>Shaper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.StrokeSequence" Collapsed="true">
+    <Position X="126.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAQAAAAABAACAAAAAQAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Shaper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.FigureShape" Collapsed="true">
+    <Position X="6.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAACAAAAgAAAAAAAAAAAAAAAAABAAAAAQAAAAAAA=</HashCode>
+      <FileName>Shaper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.PathFigureShape" Collapsed="true">
+    <Position X="1" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAAAAAAAAAAAAAACAAAAAAAAAAAAEAAAAAAAABAIAA=</HashCode>
+      <FileName>Shaper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.TriangleFigureShape" Collapsed="true">
+    <Position X="3.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAEkAAAAAAAAAAAAAAAAAAAAIIAAAFAAAAA=</HashCode>
+      <FileName>Shaper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.QuadrangleFigureShape" Collapsed="true">
+    <Position X="5.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Shaper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.EllipseFigureShape" Collapsed="true">
+    <Position X="7.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Shaper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.LineFigureShape" Collapsed="true">
+    <Position X="10" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAkCAAAAAAAAAAAAABAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Shaper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.MultiLineFigureShape" Collapsed="true">
+    <Position X="12.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Shaper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.FigureShapeRelation" Collapsed="true">
+    <Position X="121" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABABAAAAAAAAAAAAAgAAQAIAAAJAAAAAQAAAAAIAAQ=</HashCode>
+      <FileName>Shaper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.Figure" Collapsed="true">
+    <Position X="119.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIEAAAAAAAAAAAAAAAACAAAAAgAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Shaper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.Shaper" Collapsed="true">
+    <Position X="129.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIAAAAEAAAAAAAAAQAAAAAIAAIAhAACAAAEAAAAAAAA=</HashCode>
+      <FileName>Shaper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.ShapeType" Collapsed="true">
+    <Position X="114" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIBAgAAAAgIIAMIQAYAAUACAEEQAAIAAAKAAAAAAA=</HashCode>
+      <FileName>ShapeType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.ShapeTypeCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="115.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAACAABAACAAAFAQAAAAAAAAEAAAAEABCIAA=</HashCode>
+      <FileName>ShapeType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.ShapeUtils" Collapsed="true">
+    <Position X="117.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>ShapeUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.Store" Collapsed="true">
+    <Position X="31.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oIAUAAAYAAAAIAAAKAAIgAAACECAAEAAIAAwBAGIAAA=</HashCode>
+      <FileName>Store.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.TextMeasurer" Collapsed="true">
+    <Position X="122.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAEAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TextMeasurer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.TextBase" Collapsed="true">
+    <Position X="4" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYELABIAggAAEqAAEBEAAACAAIAACAARAgAQCAAAIJI=</HashCode>
+      <FileName>TextShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.LabelBase" Collapsed="true">
+    <Position X="4" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARJEBAEkABAAiQIEFIAAIYQaAwQAQAAIoQAACQQIII=</HashCode>
+      <FileName>TextShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.ToolCache" Collapsed="true">
+    <Position X="124.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAgAAAAICACIwQAABAADEIABkQAUSCAyEoAAJEgCA=</HashCode>
+      <FileName>ToolCache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.TriangleBase" Collapsed="true">
+    <Position X="15.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgJABEAgABAgiCAAAAAAAAIIAAcAQABCgAyAAACIBI=</HashCode>
+      <FileName>TriangleBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.TypeDescriptorRegistrar" Collapsed="true">
+    <Position X="115.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAIAAAAABQAAAAAICAAAAAAAAAAgAAAAIAAAAAAA=</HashCode>
+      <FileName>TypeDescriptionProviders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.TypeDescriptionProviderDg" Collapsed="true">
+    <Position X="114" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAAAAAAAAABAA=</HashCode>
+      <FileName>TypeDescriptionProviders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.TypeDescriptorDgBase" Collapsed="true">
+    <Position X="19.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCAAAAAAAAAAhAAAAAAAAABAEKAAAAERAABAACAI=</HashCode>
+      <FileName>TypeDescriptionProviders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.TypeDescriptorDg" Collapsed="true">
+    <Position X="18.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypeDescriptionProviders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.LayerTypeDescriptor" Collapsed="true">
+    <Position X="20.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypeDescriptionProviders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Advanced.PropertyDescriptorDg" Collapsed="true">
+    <Position X="128" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAJAAwAgFQQEgBAAAAAAAAIAQAAAACAAAAAAA=</HashCode>
+      <FileName>TypeDescriptionProviders.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.Command" Collapsed="true">
+    <Position X="58.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAgAAiAASAIAEAQAAAAgAAAAAAAAAAAAAQBQA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.ShapeCommand" Collapsed="true">
+    <Position X="33.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.ShapesCommand" Collapsed="true">
+    <Position X="47.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.TemplateCommand" Collapsed="true">
+    <Position X="69.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAEAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.DiagramCommand" Collapsed="true">
+    <Position X="81" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.DesignCommand" Collapsed="true">
+    <Position X="94.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAkAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.AutoDisconnectShapesCommand" Collapsed="true">
+    <Position X="105.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAEAAAAAAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.InsertOrRemoveModelObjectsCommand" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAEAAABAAAAAEAAAAAQQAAAAAAAAAAAAAABAE=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.AttachedObjects" Collapsed="true">
+    <Position X="114" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAAAIAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.InsertOrRemoveShapeCommand" Collapsed="true">
+    <Position X="101.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAMEAEAAAAABQCAIAkEAAAAQQgAAAACAABQAABQBFA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.ConnectionCommand" Collapsed="true">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAEEBIAAAgAAAAAAAIAAAAEAAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.ShapeAggregationCommand" Collapsed="true">
+    <Position X="108" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAACAAAEIgAAAAAAAAACAACAAAACABAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.AggregatedCommand" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAAUAAAAIgAAQAAAEABAAAAgAAAAAACAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.InsertShapeCommand" Collapsed="true">
+    <Position X="100.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.CreateShapesCommand" Collapsed="true">
+    <Position X="100.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAgAQAAAEAAAAAAgAAAAAAAAQAACIQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.DeleteShapeCommand" Collapsed="true">
+    <Position X="102.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.DeleteShapesCommand" Collapsed="true">
+    <Position X="102.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAQAAAAAAAAAAgAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.MoveShapeByCommand" Collapsed="true">
+    <Position X="44" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAQAAEAAAAAAAgAAAAAAAACIAIAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.MoveShapesCommand" Collapsed="true">
+    <Position X="21.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAQAAAEAAAAAAgAAAAEAAEAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.MoveShapesToCommand" Collapsed="true">
+    <Position X="23.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAgAAQAAEEAAAAAAgAAAAEAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.MoveControlPointCommand" Collapsed="true">
+    <Position X="46.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAgCAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.MoveGluePointCommand" Collapsed="true">
+    <Position X="39.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAEAAQAAEAEBACAAgQAAAAAAIAIAAAQAAQ=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.RotateShapesCommand" Collapsed="true">
+    <Position X="53" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAAAAAAAAAQAgAEAAAAAAgAAAAAAAAAAAABQBAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.SetCaptionTextCommand" Collapsed="true">
+    <Position X="73.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAEAAAAAAQAAAEAAAAAAgAAEAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.LiftShapeCommand" Collapsed="true">
+    <Position X="89" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAgASAAAEABAAAAgAAAAAAAAAABAAQhAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.ConnectCommand" Collapsed="true">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.DisconnectCommand" Collapsed="true">
+    <Position X="12.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAABAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.AddVertexCommand" Collapsed="true">
+    <Position X="28.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAQAAAAAAAAAAgAAAAAAAABgAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.InsertVertexCommand" Collapsed="true">
+    <Position X="30.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAQAAAAAAAAAAoAAAAAAAABgAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.RemoveVertexCommand" Collapsed="true">
+    <Position X="32.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAQAAAAAAAAAAoAAAAAAAEIAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.AddConnectionPointCommand" Collapsed="true">
+    <Position X="35" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAQAAAAAAAAAAgAAAAAAAABgAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.RemoveConnectionPointCommand" Collapsed="true">
+    <Position X="37.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAQAAAAAAAAAAgAAAAAAAEAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.InsertModelObjectsCommand" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.CreateModelObjectsCommand" Collapsed="true">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAQAAE=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.DeleteModelObjectsCommand" Collapsed="true">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAQAAE=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.SetModelObjectParentCommand" Collapsed="true">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAQAAAEAAAAAAgAAAAAAAAIAAAAQABA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.AssignModelObjectCommand" Collapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAQAAAEAAAAACgAAAAAAAAAAAAAQBAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.CreateTemplateCommand" Collapsed="true">
+    <Position X="68.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQFAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.DeleteTemplateCommand" Collapsed="true">
+    <Position X="71" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.ExchangeTemplateCommand" Collapsed="true">
+    <Position X="26" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.CopyTemplateFromTemplateCommand" Collapsed="true">
+    <Position X="26" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAAAAIAAABAQAAAEAAAAAAgAAICAAAACAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.ExchangeTemplateShapeCommand" Collapsed="true">
+    <Position X="41.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAQAAAAAQEAAEIAAAAAgAAKgAAAACAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.PropertySetCommand&lt;T&gt;" Collapsed="true">
+    <Position X="60.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAEEAAAggAwAAAEAAAAAAgAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.ShapePropertySetCommand" Collapsed="true">
+    <Position X="59.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.DiagramPropertySetCommand" Collapsed="true">
+    <Position X="62" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.DesignPropertySetCommand" Collapsed="true">
+    <Position X="64.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.LayerPropertySetCommand" Collapsed="true">
+    <Position X="66.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAASAAAEAAAAAAgAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.StylePropertySetCommand" Collapsed="true">
+    <Position X="55.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAQAAAgAAACAAgAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.ModelObjectPropertySetCommand" Collapsed="true">
+    <Position X="57.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.CreateDesignCommand" Collapsed="true">
+    <Position X="91.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.DeleteDesignCommand" Collapsed="true">
+    <Position X="93.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.CreateStyleCommand" Collapsed="true">
+    <Position X="95.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.DeleteStyleCommand" Collapsed="true">
+    <Position X="98" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.InsertDiagramCommand" Collapsed="true">
+    <Position X="75.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.CreateDiagramCommand" Collapsed="true">
+    <Position X="75.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.DeleteDiagramCommand" Collapsed="true">
+    <Position X="77.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAQBAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.InsertOrRemoveLayerCommand" Collapsed="true">
+    <Position X="81" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAgAAAAAAgAAABAAAAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.AddLayerCommand" Collapsed="true">
+    <Position X="80" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.RemoveLayerCommand" Collapsed="true">
+    <Position X="82.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAgAQAAAAAAAAAgAAAAAAAAACAAAIQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.EditLayerCommand" Collapsed="true">
+    <Position X="84.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAQAAAiAAgAgAgAAAAAAAAAABAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.AddShapesToLayersCommand" Collapsed="true">
+    <Position X="86.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAEAQBAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.AssignShapesToLayersCommand" Collapsed="true">
+    <Position X="48.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAASAAAAQAAAAAgAAAAAAAAAAAEAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.RemoveShapesFromLayersCommand" Collapsed="true">
+    <Position X="50.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAASAAABAAAAAAgAAAAAAAAAAAAgQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.GroupShapesCommand" Collapsed="true">
+    <Position X="104.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.UngroupShapesCommand" Collapsed="true">
+    <Position X="107" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.AggregateCompositeShapeCommand" Collapsed="true">
+    <Position X="109.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Commands.SplitCompositeShapeCommand" Collapsed="true">
+    <Position X="111.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.DesignController" Collapsed="true">
+    <Position X="117.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oABAECBGAABgAQgFEBAkCKBCAggBBABACICFAAAiEEg=</HashCode>
+      <FileName>DesignController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.DesignEventArgs" Collapsed="true">
+    <Position X="21.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DesignController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.StyleEventArgs" Collapsed="true">
+    <Position X="21.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA=</HashCode>
+      <FileName>DesignController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.DiagramController" Collapsed="true">
+    <Position X="122.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAEIAAgACAAAAACAAAAAACACAACAAAAAQAAAA=</HashCode>
+      <FileName>DiagramController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.DiagramPresenterShapeClickEventArgs" Collapsed="true">
+    <Position X="126.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAEAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>DiagramPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.DiagramPresenterShapesEventArgs" Collapsed="true">
+    <Position X="128" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>DiagramPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.UserMessageEventArgs" Collapsed="true">
+    <Position X="117.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAA=</HashCode>
+      <FileName>DiagramPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.DiagramSetController" Collapsed="true">
+    <Position X="129.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SEQI1GAAAASKwAJMQAQECAWEA1hCUD0BCGgBBIBSDAk=</HashCode>
+      <FileName>DiagramSetController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.MouseEventArgsDg" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAgAAAgIAQAIAAUAAAAEAAAAAACAAAAAgQ=</HashCode>
+      <FileName>DiagramSetController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.KeyEventArgsDg" Collapsed="true">
+    <Position X="129.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAtBAAEKQCABAgAgAQAAAAEAAAAAAAAAIAAAACACAQ=</HashCode>
+      <FileName>DiagramSetController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.DiagramEventArgs" Collapsed="true">
+    <Position X="124.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DiagramSetController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.ShapeEventArgs" Collapsed="true">
+    <Position X="0.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAABAA=</HashCode>
+      <FileName>DiagramSetController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.ModelObjectsEventArgs" Collapsed="true">
+    <Position X="115.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>DiagramSetController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.DiagramShapeEventArgs" Collapsed="true">
+    <Position X="0.5" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAACAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DiagramSetController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.ShapeMouseEventArgs" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAACAAAAAAAAAAAAAAAAAAABAAAAABAA=</HashCode>
+      <FileName>DiagramSetController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.DiagramControllerNotFoundException" Collapsed="true">
+    <Position X="23" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DiagramSetController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.LayerController" Collapsed="true">
+    <Position X="117.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgwYACAINAAEyAIAAgBADEAAAoAAEkgAiMAIBBQQhAE=</HashCode>
+      <FileName>LayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.LayerEventArgs" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAA=</HashCode>
+      <FileName>LayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.LayersEventArgs" Collapsed="true">
+    <Position X="122.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAA=</HashCode>
+      <FileName>LayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.LayerRenamedEventArgs" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAACAAAAAgAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>LayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.LayerZoomThresholdChangedEventArgs" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAIAAAAAAAAAAAAAAAIAAAAAAAg=</HashCode>
+      <FileName>LayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.LayerHelper" Collapsed="true">
+    <Position X="119.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAABAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAQQAA=</HashCode>
+      <FileName>LayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.LayerPresenter" Collapsed="true">
+    <Position X="121" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CkDAQiACJASEQAAFUkiCCBEAwAHGKEIIKIMQhAAQggg=</HashCode>
+      <FileName>LayerPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.LayerMouseEventArgs" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAEAAAABAAAAAA=</HashCode>
+      <FileName>LayerPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.ModelController" Collapsed="true">
+    <Position X="129.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAIFCAiAggnwAJABgAASYAEgpgBEEgQCFAIBABABAQ=</HashCode>
+      <FileName>ModelController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.ModelObjectSelectedEventArgs" Collapsed="true">
+    <Position X="114" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>ModelController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.PropertyController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="126.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQACgA0CADQBIJEiQACIAQwAwEEAkYAJgE5iQABAA=</HashCode>
+      <FileName>PropertyController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.PropertyControllerEventArgs" Collapsed="true">
+    <Position X="4.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAgAAEEAQAQBAAAEAAAAgAAAAAAA=</HashCode>
+      <FileName>PropertyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.PropertyControllerPropertyChangedEventArgs" Collapsed="true">
+    <Position X="4.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAEEAAABAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PropertyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.TemplateController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="115.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gARUMjgAViBGQTAgQioECACKAI4AwAAOCEACBIxAVHg=</HashCode>
+      <FileName>TemplateController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.TemplateControllerInitializingEventArgs" Collapsed="true">
+    <Position X="117.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAABAAAAAAAAAAAAAAAAACAAAAAgAAAA=</HashCode>
+      <FileName>TemplateController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.TemplateControllerStringChangedEventArgs" Collapsed="true">
+    <Position X="119.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAIAAAAAAAAACAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>TemplateController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.TemplateControllerTemplateEventArgs" Collapsed="true">
+    <Position X="14" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TemplateController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.TemplateControllerTemplateShapeReplacedEventArgs" Collapsed="true">
+    <Position X="10.75" Y="27" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAIAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAA=</HashCode>
+      <FileName>TemplateController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.TemplateControllerModelObjectReplacedEventArgs" Collapsed="true">
+    <Position X="13" Y="27" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAACAAAAAAAAAAAAACAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>TemplateController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.TemplateControllerPropertyMappingChangedEventArgs" Collapsed="true">
+    <Position X="15.25" Y="27" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>TemplateController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.TemplateControllerPointMappingChangedEventArgs" Collapsed="true">
+    <Position X="17.5" Y="27" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAgAAAA=</HashCode>
+      <FileName>TemplateController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.ToolSetController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="129.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggQIwDAE0TgOwSpQSAAQGAARA8RAgAiByGAYRhBGBAg=</HashCode>
+      <FileName>ToolSetController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.ToolEventArgs" Collapsed="true">
+    <Position X="126.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ToolSetController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Controllers.TemplateEditorEventArgs" Collapsed="true">
+    <Position X="121" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAABAAAAACAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ToolSetController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Layouters.FlowLayouter" Collapsed="true">
+    <Position X="0.75" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEihCAABAC0QIQAwDACAAAAAAuAGAQQIgUEBAEDgAI=</HashCode>
+      <FileName>FlowLayouter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.Layouters.GridLayouter" Collapsed="true">
+    <Position X="3" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAEAgSABAAEASAAAAAAAICAAQCIEIAAAAgAA=</HashCode>
+      <FileName>GridLayouter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.Layouters.LayouterBase" Collapsed="true">
+    <Position X="4" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAEACAIAAAgQCSAAACCAAAAAQgCCAAAQAAAAAAAgDA=</HashCode>
+      <FileName>Layouter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Dataweb.NShape.Layouters.RepulsionLayouter" Collapsed="true">
+    <Position X="5.25" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAAAAAAAAAgQAAAAABCiAAAAYgACAEAAARABACAgAQ=</HashCode>
+      <FileName>Layouter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.Layouters.ExpansionLayouter" Collapsed="true">
+    <Position X="7.5" Y="26.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAgQAAAAAACAEAAAABACAAAAAAAAAAAgEA=</HashCode>
+      <FileName>Layouter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Dataweb.NShape.Properties.Resources" Collapsed="true">
+    <Position X="121" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BSAABEgAgAIBgMQEIgGBVBiQIQAAACAIgQAIgAEAAoY=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Dataweb.NShape.ShapeConnectionInfo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="122.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAAAAAAAAAABAAiAIQAAgAAAAAAMAAAAAAAAgAAiA=</HashCode>
+      <FileName>Shape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="Dataweb.NShape.ControlPointId" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="114" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAQAAMKAAAAAFQQEoBACAAICAAwAAMBAAAhgAAEAMiA=</HashCode>
+      <FileName>Shape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="Dataweb.NShape.RelativePosition" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="119.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAIAAAAAAAAAAIAAAAAAoAEAAiA=</HashCode>
+      <FileName>Shape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="Dataweb.NShape.TextPadding" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="128" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAABAABAAgAIQAAoAAAAIAIAACICAAACAgiA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="Dataweb.NShape.Advanced.ShapeConnection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="121" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEAACAAAAAAAAAgAIAAAAAAAAAAIAAAAAABAAAAiA=</HashCode>
+      <FileName>CachedRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="Dataweb.NShape.Advanced.SingleInstanceEnumerator&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="124.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAABBAAAAKAAAAAAABAAEAEoAAAAAAAAAA=</HashCode>
+      <FileName>Core.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="Dataweb.NShape.Advanced.EmptyEnumerator&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="117.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAABBAAAAKAAAAAAAAAAEAEoAAAAAAAAAA=</HashCode>
+      <FileName>Core.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="Dataweb.NShape.Advanced.ConvertEnumerator&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="115.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAABBAAAAKAAAAAAAAAAEAEoAAAAAAAAAA=</HashCode>
+      <FileName>Core.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Struct Name="Dataweb.NShape.Advanced.TerminalId" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="126.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAEgAAAQAAAAAAAAKAAAABAAAAAAiA=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Struct>
+  <Interface Name="Dataweb.NShape.ICapStyles" Collapsed="true">
+    <Position X="115.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAABAAQCAAAgAAAkAAAA=</HashCode>
+      <FileName>Design.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.ICharacterStyles" Collapsed="true">
+    <Position X="119.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAASAAgAAAAAAAIAAAACAAAAAAAAQA=</HashCode>
+      <FileName>Design.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.IColorStyles" Collapsed="true">
+    <Position X="121" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAHAEBAAQAAAgAACAAAAAAABABAAEQAAAAgCDAAACA=</HashCode>
+      <FileName>Design.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.IFillStyles" Collapsed="true">
+    <Position X="129.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAEAAAAAAAgAACAAAAAAABAAAAAAAAAAAADAAAAA=</HashCode>
+      <FileName>Design.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.ILineStyles" Collapsed="true">
+    <Position X="121" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAAAAAAABAkAACAAAAAAABABIAECAAAABADEAABA=</HashCode>
+      <FileName>Design.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.IParagraphStyles" Collapsed="true">
+    <Position X="122.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAEAACAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Design.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.IStyleSet" Collapsed="true">
+    <Position X="126.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAwAAAAAAAAQAAQAAAAAAQABAAAAAACAAA=</HashCode>
+      <FileName>Design.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.IRepository" Collapsed="true">
+    <Position X="129.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ogQAhWDQAgSQ6BEhOAoEEmEECCGBJECCwkhIghGUDQA=</HashCode>
+      <FileName>Repository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.ISecurityDomainObject" Collapsed="true">
+    <Position X="12" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.ISecurityManager" Collapsed="true">
+    <Position X="117.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Security.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.IPlanarShape" Collapsed="true">
+    <Position X="124.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Shape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.ILinearShape" Collapsed="true">
+    <Position X="119.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAEAAAAAAEAAAAAAAAAAAAEBAIUAACAAAEAAAAgAAAA=</HashCode>
+      <FileName>Shape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.IReadOnlyShapeCollection" Collapsed="true">
+    <Position X="13.25" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAABAAAAAIAQgAAQAAAAAAAAAAACAAAAEAA=</HashCode>
+      <FileName>ShapeCollection.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.IShapeCollection" Collapsed="true">
+    <Position X="13.25" Y="31.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAgAAAAAABAAAAAAAABAAABAAAIBUIDQ=</HashCode>
+      <FileName>ShapeCollection.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.IStyle" Collapsed="true">
+    <Position X="12.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.ICapStyle" Collapsed="true">
+    <Position X="6.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAgAEAAAAAAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.ICharacterStyle" Collapsed="true">
+    <Position X="9" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAABAAAAAAgAAACAAAAAAAAAAAAAAgBAAAAAAAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.IColorStyle" Collapsed="true">
+    <Position X="11.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAACAAAAgAAAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.IFillStyle" Collapsed="true">
+    <Position X="13.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAAAAAEIAAAAQAAAAAAIAAAAAAABAAIAAAAAAAgAg=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.ILineStyle" Collapsed="true">
+    <Position X="15.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAQAAAAAAAAAAAAAAAAgAAAAAAAwACAAAAAAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.IParagraphStyle" Collapsed="true">
+    <Position X="18" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIQAAAAAAAAAAACAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.Utilities.IStringIterator" Collapsed="true">
+    <Position X="124.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Buffers.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.Utilities.ISimulatedAnnealingProblem" Collapsed="true">
+    <Position X="121" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACEAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Optimizer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Advanced.ICaptionedShape" Collapsed="true">
+    <Position X="117.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAACAAAAAAAAAEASAAAACAACACAAgAAAAAAAAIA=</HashCode>
+      <FileName>Caption.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Advanced.IReadOnlyCollection&lt;T&gt;" Collapsed="true">
+    <Position X="11" Y="28.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Advanced.ILayerCollection" Collapsed="true">
+    <Position X="114" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAACIAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collections.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Advanced.IDisplayService" Collapsed="true">
+    <Position X="126.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACEAAAAAAAAAAQAAAAAAAAAAAAEAAAAAAAAgAA=</HashCode>
+      <FileName>Core.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Advanced.IRegistrar" Collapsed="true">
+    <Position X="128" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAIAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Core.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Advanced.IEntity" Collapsed="true">
+    <Position X="9" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACAAAAAAgAAAAAAAAAAAAIAAEAAAAgAAAAAACAAAA=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Advanced.IEntityType" Collapsed="true">
+    <Position X="128" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAQAAACAAAAAAAIAAIAAAAACEA=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Advanced.IRepositoryWriter" Collapsed="true">
+    <Position X="115.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGAAAAAACABAAgAAUwEAAAAAAAAhgAIggAECAgAAAAA=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Advanced.IRepositoryReader" Collapsed="true">
+    <Position X="114" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAaCAAAAABECkCAAgEAAAAASgUABAAAIgAAAAAA=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Advanced.IModelObject" Collapsed="true">
+    <Position X="9" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAABCAAAIAAAACAxIQAAAAAAAAACQAAAAAAABA=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Advanced.IReadOnlyModelObjectTypeCollection" Collapsed="true">
+    <Position X="8.75" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Advanced.IModelMapping" Collapsed="true">
+    <Position X="2.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACIIgoAACEAABAAAAAAAAEAABCAQAAAIABA=</HashCode>
+      <FileName>PropertyMappings.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Advanced.IShapeGroup" Collapsed="true">
+    <Position X="119.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>ShapeGroup.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Advanced.IStyleSetProvider" Collapsed="true">
+    <Position X="128" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShapeType.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Advanced.IReadOnlyShapeTypeCollection" Collapsed="true">
+    <Position X="11" Y="30" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShapeType.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Advanced.ICacheCollection&lt;TEntity&gt;" Collapsed="true">
+    <Position X="114" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Store.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Advanced.IStoreCache" Collapsed="true">
+    <Position X="122.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEJAQICiADAAgAACACAGAAAlIEAEQAyDMAIgkABCAA=</HashCode>
+      <FileName>Store.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Commands.ICommand" Collapsed="true">
+    <Position X="122.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAgAAgAAQAAAAAAAAAAAAAAAAAAAAAAAAQBAA=</HashCode>
+      <FileName>Command.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Controllers.IDiagramPresenter" Collapsed="true">
+    <Position X="124.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEQRFAAhkKgAJMgDCEKADEAqCgCIAEaMIFkIsAZCEVA=</HashCode>
+      <FileName>DiagramPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Controllers.ILayerView" Collapsed="true">
+    <Position X="115.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAKEIAEAAAFAAAjAAAAAAAACABAAgAABAABAAIQ=</HashCode>
+      <FileName>LayerPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Controllers.IPropertyController" Collapsed="true">
+    <Position X="126.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAUAAAAAAAAAAACAAAwAAAAAEIABAAIAAAAAA=</HashCode>
+      <FileName>PropertyController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Dataweb.NShape.Layouters.ILayouter" Collapsed="true">
+    <Position X="117.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAEAAAIAAAgQASAAAACAAAAAAAACAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Layouter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Dataweb.NShape.RepositoryCommandType" Collapsed="true">
+    <Position X="122.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwQAEIAACEAgAAIAAAAAAAAQEGHARBICAAiBAADAAA=</HashCode>
+      <FileName>AdoNetStore.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.ImageFileFormat" Collapsed="true">
+    <Position X="117.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgEAAABAAACAAAAAAAAAAAIAAAgAAAAAGAA=</HashCode>
+      <FileName>Diagram.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Permission" Collapsed="true">
+    <Position X="119.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAEAAABAAAAAACIAAAAEAABAIAIAEAAECAEA=</HashCode>
+      <FileName>Security.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.SecurityAccess" Collapsed="true">
+    <Position X="126.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Security.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.StandardRole" Collapsed="true">
+    <Position X="128" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAABAAAAAAAAAgAAAEAAAAAAAAAAAAAIAg=</HashCode>
+      <FileName>Security.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.ControlPointCapabilities" Collapsed="true">
+    <Position X="117.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACQAAAAAAAAABAAAIAAEAAAAAAAAIAAAAEAAAA=</HashCode>
+      <FileName>Shape.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.ResizeModifiers" Collapsed="true">
+    <Position X="124.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAEAAAA=</HashCode>
+      <FileName>Shape.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.ZOrderDestination" Collapsed="true">
+    <Position X="117.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABAAAAAAAAAAAAAAAACAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ShapeCollection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.StyleCategory" Collapsed="true">
+    <Position X="129.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAQAAYAAAAAAAgAAAAAAACAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.ImageLayoutMode" Collapsed="true">
+    <Position X="119.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAQAAAKAQQ=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.FillMode" Collapsed="true">
+    <Position X="115.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAQAAAAABAIAAAAAAAAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.CapShape" Collapsed="true">
+    <Position X="115.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAABAAAAEAAAAEgBAwAAAAAgAAsAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.DashType" Collapsed="true">
+    <Position X="121" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAACAAAAAAoAAAAAAAAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.ToolResult" Collapsed="true">
+    <Position X="115.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Tool.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Advanced.ItemState" Collapsed="true">
+    <Position X="122.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAABAAEAAAAAAAAAAAAAAAAAAQAAQ=</HashCode>
+      <FileName>CachedRepository.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Advanced.EntityCategory" Collapsed="true">
+    <Position X="122.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEEAAAAMAACAAAAAAAAAAAAAAAAAAABAgAAAAAICA=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Advanced.RenderingQuality" Collapsed="true">
+    <Position X="121" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAABAAAAACAEAAA=</HashCode>
+      <FileName>GdiHelpers.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Advanced.ExifPropertyTags" Collapsed="true">
+    <Position X="128" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEZ8qmBRiQG1BEERgBAIKlC8MKUGBizFF5sCGB/cAhQ=</HashCode>
+      <FileName>GdiHelpers.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Advanced.ExifPropertyTypes" Collapsed="true">
+    <Position X="129.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAEEAACCAAAAAAAABAAAAABAAAAAAAAAACA=</HashCode>
+      <FileName>GdiHelpers.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Advanced.ExifIntrTags" Collapsed="true">
+    <Position X="126.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAEAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAEAACAAAA=</HashCode>
+      <FileName>GdiHelpers.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Advanced.ExifGpsTags" Collapsed="true">
+    <Position X="124.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAECEAAAAkCgoIAAQBUQABAAAAABBRBCDAKgCAAAIAA=</HashCode>
+      <FileName>GdiHelpers.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Advanced.LayerIds" Collapsed="true">
+    <Position X="128" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAMw/AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAEAAAA=</HashCode>
+      <FileName>Layer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Advanced.Bowing" Collapsed="true">
+    <Position X="114" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACACAAAAAAAA=</HashCode>
+      <FileName>Shaper.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Advanced.FigureShapeRelationType" Collapsed="true">
+    <Position X="114" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAABBAAAAACECAAAgAACA=</HashCode>
+      <FileName>Shaper.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Controllers.ControlPointShape" Collapsed="true">
+    <Position X="119.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAgAAgAAAAAgACAAAAA=</HashCode>
+      <FileName>DiagramPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Controllers.IndicatorDrawMode" Collapsed="true">
+    <Position X="121" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DiagramSetController.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Controllers.MouseButtonsDg" Collapsed="true">
+    <Position X="114" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAACACQAAEAAAA=</HashCode>
+      <FileName>DiagramSetController.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Controllers.MouseEventType" Collapsed="true">
+    <Position X="115.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAEAAAAAAAAACAAAA=</HashCode>
+      <FileName>DiagramSetController.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Controllers.KeyEventType" Collapsed="true">
+    <Position X="124.5" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAgAAAAAgAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>DiagramSetController.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Controllers.KeysDg" Collapsed="true">
+    <Position X="126.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>A5ru5//VY8ooSswJUzETACoVGk1c1BsayKGo////aWM=</HashCode>
+      <FileName>DiagramSetController.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Controllers.LayerItem" Collapsed="true">
+    <Position X="129.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAAAAAAAAAAAAAAAAAQARAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>LayerPresenter.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Controllers.NonEditableDisplayMode" Collapsed="true">
+    <Position X="117.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAIAAAEAAA=</HashCode>
+      <FileName>PropertyController.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Dataweb.NShape.Controllers.TemplateControllerEditMode" Collapsed="true">
+    <Position X="114" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAACAAAAAAAAA=</HashCode>
+      <FileName>TemplateController.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Dataweb.NShape.FindStyleCallback" Collapsed="true">
+    <Position X="122.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Dataweb.NShape.CreatePreviewStyleCallback" Collapsed="true">
+    <Position X="117.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Styles.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Dataweb.NShape.Advanced.FilterDelegate&lt;TEntity&gt;" Collapsed="true">
+    <Position X="121" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>CachedRepository.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Dataweb.NShape.Advanced.Resolver" Collapsed="true">
+    <Position X="128" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CachedRepository.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Dataweb.NShape.Advanced.CreateInstanceDelegate" Collapsed="true">
+    <Position X="114" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Dataweb.NShape.Advanced.GetPropertyDefinitionsDelegate" Collapsed="true">
+    <Position X="124.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entity.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Dataweb.NShape.Advanced.CreateModelObjectDelegate" Collapsed="true">
+    <Position X="115.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Dataweb.NShape.Advanced.CreateShapeDelegate" Collapsed="true">
+    <Position X="119.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAEAA=</HashCode>
+      <FileName>ShapeType.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Dataweb.NShape.Advanced.IdFilter" Collapsed="true">
+    <Position X="126.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Store.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Dataweb.NShape.Controllers.SelectedObjectsChangedCallback" Collapsed="true">
+    <Position X="129.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PropertyController.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

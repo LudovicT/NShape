@@ -17,7 +17,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 
 
-namespace Dataweb.NShape.Advanced {
+namespace Dataweb.NShape.Advanced
+{
 
 	#region IStoreCache Interface
 
@@ -25,19 +26,20 @@ namespace Dataweb.NShape.Advanced {
 	/// Provides access to NShape entities of one type for stores.
 	/// </summary>
 	/// <typeparam name="TEntity"></typeparam>
-	public interface ICacheCollection<TEntity> : IEnumerable<EntityBucket<TEntity>> where TEntity : IEntity {
+	public interface ICacheCollection<TEntity> : IEnumerable<EntityBucket<TEntity>> where TEntity : IEntity
+	{
 
 		/// <ToBeCompleted></ToBeCompleted>
-		bool Contains(object id);
+		bool Contains( object id );
 
 		/// <ToBeCompleted></ToBeCompleted>
-		TEntity GetEntity(object id);
+		TEntity GetEntity( object id );
 
 		/// <ToBeCompleted></ToBeCompleted>
 		EntityBucket<TEntity> this[object id] { get; }
 
 		/// <ToBeCompleted></ToBeCompleted>
-		void Add(EntityBucket<TEntity> bucket);
+		void Add( EntityBucket<TEntity> bucket );
 
 	}
 
@@ -45,7 +47,8 @@ namespace Dataweb.NShape.Advanced {
 	/// <summary>
 	/// Provides access to NShape entities for stores.
 	/// </summary>
-	public interface IStoreCache {
+	public interface IStoreCache
+	{
 
 		/// <ToBeCompleted></ToBeCompleted>
 		object ProjectId { get; }
@@ -62,13 +65,13 @@ namespace Dataweb.NShape.Advanced {
 		/// Sets the repository version of the core libraries from a loading project.
 		/// </summary>
 		/// <param name="version"></param>
-		void SetRepositoryBaseVersion(int version);
+		void SetRepositoryBaseVersion( int version );
 
 		/// <ToBeCompleted></ToBeCompleted>
 		ProjectSettings Project { get; }
 
 		/// <ToBeCompleted></ToBeCompleted>
-		void SetProjectOwnerId(object id);
+		void SetProjectOwnerId( object id );
 
 		/// <ToBeCompleted></ToBeCompleted>
 		Design ProjectDesign { get; }
@@ -79,39 +82,39 @@ namespace Dataweb.NShape.Advanced {
 		IEnumerable<IEntityType> EntityTypes { get; }
 
 		/// <ToBeCompleted></ToBeCompleted>
-		IEntityType FindEntityTypeByName(string entityTypeName);
+		IEntityType FindEntityTypeByName( string entityTypeName );
 
 		/// <ToBeCompleted></ToBeCompleted>
-		IEntityType FindEntityTypeByElementName(string elementName);
+		IEntityType FindEntityTypeByElementName( string elementName );
 
 		/// <ToBeCompleted></ToBeCompleted>
-		string CalculateElementName(string entityTypeName);
+		string CalculateElementName( string entityTypeName );
 
 		//---------
 
 		/// <ToBeCompleted></ToBeCompleted>
-		IStyle GetProjectStyle(object id);
+		IStyle GetProjectStyle( object id );
 
 		/// <ToBeCompleted></ToBeCompleted>
 		bool ModelExists();
-		
+
 		/// <ToBeCompleted></ToBeCompleted>
 		Model GetModel();
 
 		/// <ToBeCompleted></ToBeCompleted>
-		Template GetTemplate(object id);
+		Template GetTemplate( object id );
 
 		/// <ToBeCompleted></ToBeCompleted>
-		Diagram GetDiagram(object id);
+		Diagram GetDiagram( object id );
 
 		/// <ToBeCompleted></ToBeCompleted>
-		Shape GetShape(object id);
+		Shape GetShape( object id );
 
 		/// <ToBeCompleted></ToBeCompleted>
-		IModelObject GetModelObject(object id);
+		IModelObject GetModelObject( object id );
 
 		/// <ToBeCompleted></ToBeCompleted>
-		Design GetDesign(object id);
+		Design GetDesign( object id );
 
 		//---------
 
@@ -176,25 +179,26 @@ namespace Dataweb.NShape.Advanced {
 		IEnumerable<KeyValuePair<IModelObject, IEntity>> NewModelObjects { get; }
 
 	}
-	
+
 	#endregion
 
 
 	#region Store Class
 
 	/// <ToBeCompleted></ToBeCompleted>
-	public delegate bool IdFilter(object id);
+	public delegate bool IdFilter( object id );
 
 
 	/// <summary>
 	/// Stores cache data persistently in a data source.
 	/// </summary>
-	public abstract class Store : Component {
+	public abstract class Store : Component
+	{
 
 		/// <summary>
 		/// Specifies the name of the project.
 		/// </summary>
-		[Browsable(false)]
+		[Browsable( false )]
 		public abstract string ProjectName { get; set; }
 
 
@@ -208,29 +212,30 @@ namespace Dataweb.NShape.Advanced {
 		/// <summary>
 		/// Reads the version of the project from the persistent store.
 		/// </summary>
-		public abstract void ReadVersion(IStoreCache cache);
+		public abstract void ReadVersion( IStoreCache cache );
 
 
 		/// <summary>
 		/// Creates a project store in the data source.
 		/// </summary>
 		/// <param name="storeCache"></param>
-		public abstract void Create(IStoreCache storeCache);
+		public abstract void Create( IStoreCache storeCache );
 
 
 		/// <summary>
 		/// Opens a project store in the data source.
 		/// </summary>
 		/// <param name="storeCache"></param>
-		public abstract void Open(IStoreCache storeCache);
+		public abstract void Open( IStoreCache storeCache );
 
 
 		/// <summary>
 		/// Closes the project store.
 		/// </summary>
 		/// <param name="storeCache"></param>
-		public virtual void Close(IStoreCache storeCache) {
-			if (storeCache == null) throw new ArgumentNullException("storeCache");
+		public virtual void Close( IStoreCache storeCache )
+		{
+			if( storeCache == null ) throw new ArgumentNullException( "storeCache" );
 			// Nothing to do yet.
 		}
 
@@ -248,13 +253,13 @@ namespace Dataweb.NShape.Advanced {
 		/// <param name="entityType">Project entity type</param>
 		/// <param name="parameters">Ids of the project settings to load. if null, all projects are loaded.</param>
 		/// <remarks>Optional parameter 'parameters' is not used in the current version.</remarks>
-		public abstract void LoadProjects(IStoreCache cache, IEntityType entityType, params object[] parameters);
+		public abstract void LoadProjects( IStoreCache cache, IEntityType entityType, params object[] parameters );
 
 
 		/// <summary>
 		/// Loads the model of the project into the given store cache.
 		/// </summary>
-		public abstract void LoadModel(IStoreCache cache, object projectId);
+		public abstract void LoadModel( IStoreCache cache, object projectId );
 
 
 		/// <summary>
@@ -262,13 +267,13 @@ namespace Dataweb.NShape.Advanced {
 		/// </summary>
 		/// <param name="cache">Store cache to load to.</param>
 		/// <param name="projectId">Project id for project design, null for general designs.</param>
-		public abstract void LoadDesigns(IStoreCache cache, object projectId);
+		public abstract void LoadDesigns( IStoreCache cache, object projectId );
 
 
 		/// <summary>
 		/// Loads all templates of the project into the given store cache.
 		/// </summary>
-		public abstract void LoadTemplates(IStoreCache cache, object projectId);
+		public abstract void LoadTemplates( IStoreCache cache, object projectId );
 
 
 		/// <summary>
@@ -277,7 +282,7 @@ namespace Dataweb.NShape.Advanced {
 		/// <remarks>
 		/// If the store supports partial loading, the shapes shapes of the diagrams are not loaded.
 		/// </remarks>
-		public abstract void LoadDiagrams(IStoreCache cache, object projectId);
+		public abstract void LoadDiagrams( IStoreCache cache, object projectId );
 
 
 		/// <summary>
@@ -286,7 +291,7 @@ namespace Dataweb.NShape.Advanced {
 		/// <remarks>
 		/// If the diagram's shapes have already been loaded, this method does nothing.
 		/// </remarks>
-		public abstract void LoadDiagramShapes(IStoreCache cache, Diagram diagram);
+		public abstract void LoadDiagramShapes( IStoreCache cache, Diagram diagram );
 
 
 		/// <summary>
@@ -295,13 +300,13 @@ namespace Dataweb.NShape.Advanced {
 		/// <remarks>
 		/// If the template's shapes have already been loaded, this method does nothing.
 		/// </remarks>
-		public abstract void LoadTemplateShapes(IStoreCache cache, object templateId);
+		public abstract void LoadTemplateShapes( IStoreCache cache, object templateId );
 
 
 		/// <summary>
 		/// Loads all child shapes of the shape with the given Id into the given store cache.
 		/// </summary>
-		public abstract void LoadChildShapes(IStoreCache cache, object parentShapeId);
+		public abstract void LoadChildShapes( IStoreCache cache, object parentShapeId );
 
 
 		/// <summary>
@@ -310,7 +315,7 @@ namespace Dataweb.NShape.Advanced {
 		/// <remarks>
 		/// If the template's model objects have already been loaded, this method does nothing.
 		/// </remarks>
-		public abstract void LoadTemplateModelObjects(IStoreCache cache, object templateId);
+		public abstract void LoadTemplateModelObjects( IStoreCache cache, object templateId );
 
 
 		/// <summary>
@@ -319,7 +324,7 @@ namespace Dataweb.NShape.Advanced {
 		/// <remarks>
 		/// If the model's model ojects have already been loaded, this method does nothing.
 		/// </remarks>
-		public abstract void LoadModelModelObjects(IStoreCache cache, object modelId);
+		public abstract void LoadModelModelObjects( IStoreCache cache, object modelId );
 
 
 		/// <summary>
@@ -327,7 +332,7 @@ namespace Dataweb.NShape.Advanced {
 		/// </summary>
 		/// <param name="cache">Store cache associated with this store.</param>
 		/// <param name="parentModelObjectId">Id of the parent model object.</param>
-		public abstract void LoadChildModelObjects(IStoreCache cache, object parentModelObjectId);
+		public abstract void LoadChildModelObjects( IStoreCache cache, object parentModelObjectId );
 
 
 		/// <summary>
@@ -336,7 +341,7 @@ namespace Dataweb.NShape.Advanced {
 		/// <param name="cache">The store cache associated with this store.</param>
 		/// <param name="styleId">The id of the style to be checked.</param>
 		/// <remarks>Applies only to stores that support partial loading.</remarks>
-		public abstract bool CheckStyleInUse(IStoreCache cache, object styleId);
+		public abstract bool CheckStyleInUse( IStoreCache cache, object styleId );
 
 
 		/// <summary>
@@ -345,7 +350,7 @@ namespace Dataweb.NShape.Advanced {
 		/// <param name="cache">The store cache associated with this store.</param>
 		/// <param name="templateId">The id of the template to be checked.</param>
 		/// <remarks>Applies only to stores that support partial loading.</remarks>
-		public abstract bool CheckTemplateInUse(IStoreCache cache, object templateId);
+		public abstract bool CheckTemplateInUse( IStoreCache cache, object templateId );
 
 
 		/// <summary>
@@ -354,7 +359,7 @@ namespace Dataweb.NShape.Advanced {
 		/// <param name="cache">The store cache associated with this store.</param>
 		/// <param name="modelObjectId">The id of the model object to be checked.</param>
 		/// <remarks>Applies only to stores that support partial loading.</remarks>
-		public abstract bool CheckModelObjectInUse(IStoreCache cache, object modelObjectId);
+		public abstract bool CheckModelObjectInUse( IStoreCache cache, object modelObjectId );
 
 
 		/// <summary>
@@ -363,13 +368,13 @@ namespace Dataweb.NShape.Advanced {
 		/// <param name="cache">The store cache associated with this store.</param>
 		/// <param name="typeName">The name of the shape type to check.</param>
 		/// <remarks>Applies only to stores that support partial loading.</remarks>
-		public abstract bool CheckShapeTypeInUse(IStoreCache cache, string typeName);
+		public abstract bool CheckShapeTypeInUse( IStoreCache cache, string typeName );
 
 
 		/// <summary>
 		/// Commits all modifications in the cache to the data store.
 		/// </summary>
-		public abstract void SaveChanges(IStoreCache storeCache);
+		public abstract void SaveChanges( IStoreCache storeCache );
 
 
 		/// <summary>

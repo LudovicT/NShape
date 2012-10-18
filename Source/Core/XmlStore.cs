@@ -762,9 +762,12 @@ namespace Dataweb.NShape {
 			public override void BeginReadInnerObjects() {
 				if (propertyInfos == null) throw new NShapeException("Property EntityType is not set.");
 				if (innerObjectsReader != null) throw new InvalidOperationException("EndReadInnerObjects was not called.");
+
 				++PropertyIndex;
 				string elementName = Cache.CalculateElementName(propertyInfos[PropertyIndex].Name);
+
 				if (!xmlReader.IsStartElement(elementName)) throw new InvalidOperationException(string.Format("Element '{0}' expected.", elementName));
+				
 				if (!xmlReader.IsEmptyElement) xmlReader.Read();
 				innerObjectsReader = new XmlStoreReader(xmlReader, store, Cache);
 				// Set a marker to detect wrong call sequence
